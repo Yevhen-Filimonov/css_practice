@@ -1,23 +1,22 @@
 .people {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 230px 230px 230px 230px;
   align-items: center;
 }
 
-.person{
+.person {
   display: grid;
   border-radius: 50%;
   margin: 0px 30px 40px 0px;
   width: 200px;
   height: 231px;
   perspective: 400px;
-
-  &:hover {
-    background-color: gray;
-    transition-duration: 1s, 0.1s;
-    transform: scale(1.2);
-  }
+}
+.person:hover {
+  background-color: gray;
+  transition-duration: 1s, 0.1s;
+  transform: scale(1.2);
 }
 
 .photo {
@@ -43,8 +42,6 @@ img {
   align-items: center;
 }
 
-
-
 .rank {
   position: absolute;
   right: 10%;
@@ -52,10 +49,4 @@ img {
   background-color: white;
   border-radius: 20%;
   color: red;
-  
-}
-
-
-@media (min-width: 500px) {
-  
-}
+}/*# sourceMappingURL=main.css.map */
